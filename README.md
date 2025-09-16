@@ -8,7 +8,7 @@
 
 **File Formats**: (.csv) for out data and (.txt) for 
 
-**Compresion**: 
+**Compresion**: We have used unzip -p to get the tsv file and unzipped and starting to work on it. For us to create our tables and analysis we had to use this. 
 
 **Row / Column Counts**:
 
