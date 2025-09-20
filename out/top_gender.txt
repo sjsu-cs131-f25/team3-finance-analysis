@@ -1,0 +1,10 @@
+      1 user_id,age,gender,education_level,employment_status,job_title,monthly_income_usd,monthly_expenses_usd,savings_usd,has_loan,loan_type,loan_amount_usd,loan_term_months,monthly_emi_usd,loan_interest_rate_pct,debt_to_income_ratio,credit_score,savings_to_income_ratio,region,record_date
+      1 U32424,39,Female,Master,Employed,Engineer,4410.19,2866.47,176985.54,No,None,0.0,0,0.0,0.0,0.0,689,3.34,North America,2023-08-01
+      1 U32423,36,Other,High School,Self-employed,Accountant,5035.99,4054.32,524039.88,No,None,0.0,0,0.0,0.0,0.0,596,8.67,Asia,2022-06-07
+      1 U32422,18,Female,Bachelor,Self-employed,Doctor,3282.38,2243.77,22081.21,No,None,0.0,0,0.0,0.0,0.0,391,0.56,Other,2025-07-20
+      1 U32421,51,Female,Master,Employed,Student,5725.78,4965.02,17247.57,Yes,Home,83602.57,12,7605.13,16.5,1.33,453,0.25,North America,2025-06-06
+      1 U32420,30,Female,High School,Employed,Salesperson,4266.87,1510.82,273669.7,Yes,Car,498400.74,120,6227.54,8.68,1.46,434,5.34,Europe,2024-02-25
+      1 U32419,60,Male,High School,Employed,Manager,5223.1,3347.34,85547.65,No,None,0.0,0,0.0,0.0,0.0,553,1.36,Europe,2024-11-20
+      1 U32418,35,Female,Bachelor,Unemployed,Accountant,5763.3,3235.06,456106.8,Yes,Education,167226.15,120,3863.38,25.5,0.67,619,6.59,Asia,2025-06-22
+      1 U32417,59,Male,Master,Employed,Salesperson,2907.16,1119.66,127873.43,No,None,0.0,0,0.0,0.0,0.0,762,3.67,Europe,2024-05-14
+      1 U32416,57,Female,PhD,Employed,Engineer,3579.84,2861.06,5003.49,Yes,Car,489624.86,300,3463.69,7.01,0.97,775,0.12,Africa,2022-05-04
