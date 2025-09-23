@@ -12,7 +12,7 @@
 
 **Row / Column Counts**: 32423 rows, 20 columns
 
-**Delimiter(s)**: We are susing commas for the delimeters in our data. 
+**Delimiter(s)**: We are using commas for the delimeters in our data. 
 
 **Header Presence**: 
 
