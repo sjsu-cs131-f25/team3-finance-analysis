@@ -18,4 +18,4 @@
 
 **Encoding**: The raw dataset was a zip file. After unzipping it we saved our data and tables as txt files. 
 
-**Notes**: 
+
