@@ -10,7 +10,7 @@
 
 **Compresion**: We used unzip -p to get the tsv file and unzipped and starting to work on it. For us to create our tables and analysis we had to use this. 
 
-**Row / Column Counts**:  
+**Row / Column Counts**: 32423 rows, 20 columns
 
 **Delimiter(s)**: We are susing commas for the delimeters in our data. 
 
