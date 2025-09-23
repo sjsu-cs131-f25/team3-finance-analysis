@@ -12,10 +12,10 @@
 
 **Row / Column Counts**: 32423 rows, 20 columns
 
-**Delimiter(s)**: We are using commas for the delimeters in our data. 
+**Delimiter(s)**: We are susing commas for the delimeters in our data. 
 
-**Header Presence**: 
+**Header Presence**: Header were present in our data files. The headers were user_id, age, gender, education_level ,employment_status, job_title, monthly_income_usd, monthly_expenses_usd, savings_usd, has_loan, loan_type, loan_amount_usd, loan_term_months, monthly_emi_usd, loan_interest_rate_pct, debt_to_income_ratio, credit_score, savings_to_income_ratio, region,record_date
 
-**Encoding**: 
+**Encoding**: The raw dataset was a zip file. After unzipping it we saved our data and tables as txt files. 
 
 **Notes**: 
