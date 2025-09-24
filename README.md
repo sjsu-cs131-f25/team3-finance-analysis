@@ -14,7 +14,7 @@
 
 **Row / Column Counts**: 32423 rows, 20 columns
 
-**Delimiter(s)**: We are susing commas for the delimeters in our data. 
+**Delimiter(s)**: #One assumption which was made in the command dealing with the top table. We did not exclude the header line because we were sure that would not show up in the output. The skinny table was also sampled to show the top twenty lines only 
 
 **Header Presence**: Header were present in our data files. The headers were user_id, age, gender, education_level ,employment_status, job_title, monthly_income_usd, monthly_expenses_usd, savings_usd, has_loan, loan_type, loan_amount_usd, loan_term_months, monthly_emi_usd, loan_interest_rate_pct, debt_to_income_ratio, credit_score, savings_to_income_ratio, region,record_date
 
