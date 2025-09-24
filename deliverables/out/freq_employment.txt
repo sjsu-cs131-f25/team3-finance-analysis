@@ -1,0 +1,4 @@
+  19410 Employed
+   6580 Self-employed
+   3220 Unemployed
+   3214 Student
