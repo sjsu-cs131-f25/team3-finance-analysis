@@ -16,6 +16,8 @@ awk -F'\t' 'NR==FNR { m[$1]=$2; next } { if ($2 in m) print $1 "\t" m[$2] }' sav
 #sorting before using datamash
 sort -k1,1 education_level_monthly_income.tsv > education_level_monthly_income_sorted.tsv
 
-datamash -g 1 count 2 mean 2 median 2 < left_outcome.tsv > cluster_outcomes.tsv
-datamash -g 1 count 2 mean 2 median 2 < left_outcome_sorted.tsv > cluster_outcomes.tsv
+source ~/.bashrc
+which datamash
+datamash -g 1 count 2 mean 2 median 2 < education_level_monthly_income_sorted.tsv > cluster_outcomes.tsv
+
 
