@@ -31,3 +31,5 @@ awk -F',' 'NR>1 && $5!="NA"{c[$5]++} END{for(k in c) printf "%s,%d\n",k,c[k]}' d
 awk -F',' 'NR>1 && $6!="NA"{c[$6]++} END{for(k in c) printf "%s,%d\n",k,c[k]}' dataset.csv | sort -t$',' -k2,2nr -k1,1 | { printf "job_title,count\n"; cat; } | head -n 5 > "$OUTPUT/top5_job_title.csv"
 
 awk -F',' 'NR>1 { print $1","$2","$7","$8","$9","$10 }' dataset.csv | sort -t',' -k1,1 | { printf "user_id,age,monthly_income_usd,monthly_expenses_usd,savings_usd,has_loan\n"; cat; } > "$OUTPUT/skinny_users_finance.csv"
+
+awk -F',' 'NR==1 || ($1!="" && $1!="NA" && $2!="NA" && $2+0>=18 && $2+0<=70)' dataset.csv > "$OUTPUT/filtered_age18_70.csv"
