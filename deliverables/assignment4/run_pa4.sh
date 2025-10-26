@@ -26,9 +26,9 @@ sed -E '
 
 awk -F',' 'NR>1 && $3!="NA"{c[$3]++} END{for(k in c) printf "%s,%d\n",k,c[k]}' dataset.csv | sort -t$',' -k3,2nr -k1,1 | { printf "gender,count\n"; cat; } > "$OUTPUT/freq_gender.csv"
 
-awk -F',' 'NR>1 && $5!="NA"{c[$5]++} END{for(k in c) printf "%s,%d\n",k,c[k]}' dataset.csv | sort -t$',' -k3,2nr -k1,1 | { printf "gender,count\n"; cat; } > "$OUTPUT/freq_employment.csv"
+awk -F',' 'NR>1 && $5!="NA"{c[$5]++} END{for(k in c) printf "%s,%d\n",k,c[k]}' dataset.csv | sort -t$',' -k3,2nr -k1,1 | { printf "employment_status,count\n"; cat; } > "$OUTPUT/freq_employment.csv"
 
-awk -F',' 'NR>1 && $6!="NA"{c[$6]++} END{for(k in c) printf "%s,%d\n",k,c[k]}' dataset.csv | sort -t$',' -k2,2nr -k1,1 | { printf "job_title,count\n"; cat; } | head -n 5 > "$OUTPUT/top5_job_title.csv"
+awk -F',' 'NR>1 && $6!="NA"{c[$6]++} END{for(k in c) printf "%s,%d\n",k,c[k]}' dataset.csv | sort -t$',' -k2,2nr -k1,1 | { printf "job_title,count\n"; cat; } | head -n 6 > "$OUTPUT/top5_job_title.csv"
 
 awk -F',' 'NR>1 { print $1","$2","$7","$8","$9","$10 }' dataset.csv | sort -t',' -k1,1 | { printf "user_id,age,monthly_income_usd,monthly_expenses_usd,savings_usd,has_loan\n"; cat; } > "$OUTPUT/skinny_users_finance.csv"
 
